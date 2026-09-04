@@ -1,4 +1,4 @@
-import { store } from '../store.js';
+import { store } from './store.js';
 import { renderProjectCards, setupCardEvents } from './hero.js';
 
 export function renderExploreView(container) {
