@@ -1,4 +1,4 @@
-import { store } from '../store.js';
+import { store } from './store.js';
 
 export function initSearchModal() {
   let modal = document.getElementById('global-search-modal');
