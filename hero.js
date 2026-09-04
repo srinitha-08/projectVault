@@ -1,4 +1,4 @@
-import { store } from '../store.js';
+import { store } from './store.js';
 import { showToast } from './toast.js';
 
 export function renderHomeView(container) {
