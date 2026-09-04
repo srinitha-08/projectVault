@@ -1,4 +1,4 @@
-import { store } from '../store.js';
+import { store } from './store.js';
 
 export function initNavbar() {
   const navContainer = document.getElementById('main-navbar');
