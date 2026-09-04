@@ -1,14 +1,19 @@
-import { initNavbar } from './components/navbar.js';
-import { renderHomeView } from './components/hero.js';
-import { renderExploreView } from './components/explore.js';
-import { renderProjectDetailsView } from './components/projectDetails.js';
-import { renderUploadView } from './components/upload.js';
-import { renderProfileView } from './components/profile.js';
-import { renderDashboardView } from './components/dashboard.js';
-import { renderLeaderboardView } from './components/leaderboard.js';
-import { renderAboutView } from './components/about.js';
-import { initSearchModal } from './components/searchModal.js';
-import { initAuthModal } from './components/authModal.js';
+import { initNavbar } from './navbar.js';
+
+import { renderHomeView } from './hero.js';
+import { renderExploreView } from './explore.js';
+
+import { renderProjectDetailsView } from './projectDetails.js';
+import { renderUploadView } from './upload.js';
+
+import { renderProfileView } from './profile.js';
+import { renderDashboardView } from './dashboard.js';
+
+import { renderLeaderboardView } from './leaderboard.js';
+import { renderAboutView } from './about.js';
+import { initSearchModal } from './searchModal.js';
+
+import { initAuthModal } from './authModal.js';
 
 function route() {
   const container = document.getElementById('view-container');
