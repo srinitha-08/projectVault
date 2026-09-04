@@ -1,4 +1,4 @@
-import { store } from '../store.js';
+import { store } from './store.js';
 
 export function renderLeaderboardView(container) {
   const leaderboard = store.getLeaderboard();
